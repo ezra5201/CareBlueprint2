@@ -40,7 +40,7 @@ const RatingScale = ({ value, onChange, disabled }) => {
   );
 };
 
-const HealthcareBlueprintGenerator = () => {
+const BlueprintBuilder = () => {
   // State for form data
   const [scenarioName, setScenarioName] = useState('');
   const [careCompany, setCareCompany] = useState('');
