@@ -3,7 +3,7 @@ import { Amplify } from 'aws-amplify';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import config from './aws-exports';
-import ScenarioBuilder from './components/ScenarioBuilder';
+import ScenarioBuilder from './components/ScenarioBuilder';  // The import matches the filename
 
 Amplify.configure(config);
 
