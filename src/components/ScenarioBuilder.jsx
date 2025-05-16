@@ -807,4 +807,4 @@ const BlueprintBuilder = () => {
   );
 };
 
-export default HealthcareBlueprintGenerator;
+export default ScenarioBuilder;
