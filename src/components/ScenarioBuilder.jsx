@@ -40,6 +40,7 @@ const RatingScale = ({ value, onChange, disabled }) => {
   );
 };
 
+// Renamed component to match the filename and expected import
 const ScenarioBuilder = () => {
   // State for form data
   const [scenarioName, setScenarioName] = useState('');
